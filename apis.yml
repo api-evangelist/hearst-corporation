@@ -1,0 +1,224 @@
+aid: hearst-corporation
+url: https://raw.githubusercontent.com/api-evangelist/hearst-corporation/refs/heads/main/apis.yml
+name: Hearst
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+description: >-
+  Hearst is a privately held, diversified American media, information, and
+  services conglomerate headquartered in the Hearst Tower in New York City.
+  Founded in 1887 by William Randolph Hearst, the company spans more than 360
+  businesses across magazines, newspapers, broadcast television, cable
+  networks, business and financial information, healthcare information,
+  automotive data, and venture investments. Hearst reported approximately
+  US$13B in revenue (2024) with ~22,000 employees worldwide.
+tags:
+  - Media
+  - Publishing
+  - Broadcasting
+  - Magazines
+  - Newspapers
+  - Television
+  - Cable Networks
+  - Healthcare Information
+  - Financial Information
+  - Automotive Data
+  - Syndication
+  - Conglomerate
+  - Private
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.hearst.com/
+  - type: About
+    url: https://www.hearst.com/about
+  - type: Newsroom
+    url: https://www.hearst.com/newsroom
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/hearst
+  - type: Wikipedia
+    url: https://en.wikipedia.org/wiki/Hearst_Communications
+x-portfolio:
+  description: >-
+    Hearst is a holding company with 360+ operating businesses across six
+    primary segments. The portfolio below enumerates the major divisions,
+    brands, joint ventures, and subsidiaries — none of which currently expose
+    a public developer API at the parent level. Where individual subsidiaries
+    do publish APIs (e.g. Fitch Ratings, First Databank, MOTOR, Bring a
+    Trailer), they are or will be profiled in their own api-evangelist repos.
+  segments:
+    - id: hearst-magazines
+      name: Hearst Magazines
+      description: >-
+        300+ magazine titles published in the United States and
+        internationally, plus their digital extensions and Hearst Magazines
+        Media Group's ad/data businesses.
+      url: https://www.hearstmags.com/
+      brands:
+        - Cosmopolitan
+        - Esquire
+        - Elle
+        - Elle Decor
+        - Harper's Bazaar
+        - Good Housekeeping
+        - Town & Country
+        - House Beautiful
+        - Veranda
+        - Country Living
+        - Country Living UK
+        - Delish
+        - The Pioneer Woman Magazine
+        - Oprah Daily
+        - Food Network Magazine
+        - HGTV Magazine
+        - Men's Health
+        - Women's Health
+        - Prevention
+        - Runner's World
+        - Bicycling
+        - Popular Mechanics
+        - Car and Driver
+        - Road & Track
+        - Seventeen
+        - Redbook
+        - Woman's Day
+        - Inside Soap
+        - San Antonio Magazine
+    - id: hearst-newspapers
+      name: Hearst Newspapers
+      description: >-
+        19 daily and 61+ weekly newspapers across the United States, plus
+        related local digital properties. Operates a shared newsroom and
+        platform organization (Hearst DevHub, Hearst Newspapers Production).
+      url: https://www.hearst.com/newspapers
+      brands:
+        - Houston Chronicle
+        - San Francisco Chronicle
+        - SFGATE
+        - San Antonio Express-News
+        - Times Union (Albany)
+        - Connecticut Post
+        - Greenwich Time
+        - Stamford Advocate
+        - The News-Times (Danbury)
+        - The Hour (Norwalk)
+        - The New Haven Register
+        - The Middletown Press
+        - The Register Citizen
+        - Journal Inquirer
+        - Beaumont Enterprise
+        - Laredo Morning Times
+        - Plainview Daily Herald
+        - Midland Reporter-Telegram
+        - Edwardsville Intelligencer
+        - The Telegraph (Alton, IL)
+        - Journal-Courier (Jacksonville, IL)
+        - Huron Daily Tribune
+        - Manistee News Advocate
+        - Midland Daily News (MI)
+        - The Pioneer (Big Rapids)
+        - Seattle PI (seattlepi.com)
+    - id: hearst-television
+      name: Hearst Television
+      description: >-
+        Operates 32+ local broadcast television stations across U.S. markets,
+        affiliated with ABC, NBC, CBS, The CW, MyNetworkTV, MeTV, Telemundo,
+        Estrella TV and independents; also produces and distributes
+        broadcast/cable programming via Hearst Media Production Group
+        (formerly Litton Entertainment).
+      url: https://www.hearst.com/television
+      brands:
+        - WBAL-TV (Baltimore, NBC)
+        - WCVB-TV (Boston, ABC)
+        - WMUR-TV (Manchester NH, ABC)
+        - WTAE-TV (Pittsburgh, ABC)
+        - WGAL (Lancaster/Harrisburg, NBC)
+        - KMBC-TV (Kansas City, ABC)
+        - KCCI (Des Moines, CBS)
+        - KETV (Omaha, ABC)
+        - WLWT (Cincinnati, NBC)
+        - WYFF (Greenville SC, NBC)
+        - WISN-TV (Milwaukee, ABC)
+        - WPBF (West Palm Beach, ABC)
+        - WESH (Orlando, NBC)
+        - KOAT-TV (Albuquerque, ABC)
+        - KOCO-TV (Oklahoma City, ABC)
+        - WLKY (Louisville, CBS)
+        - KSBW (Salinas/Monterey, NBC)
+        - Hearst Media Production Group
+    - id: cable-and-streaming
+      name: Cable Networks & Streaming (Joint Ventures)
+      description: >-
+        Equity stakes in some of the most-watched U.S. cable and sports
+        networks, held jointly with The Walt Disney Company and others.
+      brands:
+        - A+E Global Media (50% with Disney) — A&E, HISTORY, Lifetime, LMN, FYI, History en Español, The HISTORY Channel app
+        - ESPN, LLC (20% stake; Disney owns 80%) — ESPN, ESPN2, ESPNU, ESPN Deportes, ESPN+, ESPN Radio
+        - Vice Media (debt/equity exposure via A+E investments, historical)
+        - VICE TV
+    - id: hearst-health
+      name: Hearst Health
+      description: >-
+        Healthcare information and clinical decision-support businesses whose
+        data and software reach a large share of U.S. discharged patients,
+        prescriptions, payer claims, and home-health visits.
+      url: https://www.hearst.com/hearst-health
+      brands:
+        - First Databank (FDB) — drug knowledge & clinical decision support
+        - MCG Health — care guidelines and utilization management
+        - Zynx Health — evidence-based order sets and care plans
+        - Homecare Homebase — home health & hospice software
+        - QGenda — healthcare workforce management
+        - MHK (formerly MedHOK) — payer care management
+        - Map of Medicine (legacy)
+    - id: hearst-business-and-financial
+      name: Hearst Business Media & Financial Services
+      description: >-
+        Business-to-business information, ratings, and data subsidiaries —
+        including the wholly owned Fitch Group and a portfolio of automotive
+        and transportation data brands.
+      brands:
+        - Fitch Group (100%) — Fitch Ratings, Fitch Solutions, Fitch Learning, BMI, Sustainable Fitch, dv01, CreditSights
+        - Black Book — automotive valuation data
+        - MOTOR Information Systems — automotive repair, parts, OEM data
+        - Noregon Systems — commercial vehicle diagnostics
+        - CAMP Systems International — aviation maintenance tracking
+        - Bring a Trailer (BaT) — enthusiast car auction marketplace
+        - King Features Syndicate — content syndication (comics, columns)
+        - CDS Global — circulation, payment & customer-service outsourcing
+        - iCrossing — digital marketing services
+    - id: digital-and-ventures
+      name: Hearst Digital & Ventures
+      description: >-
+        Digital-native brands, internal platform/product groups, and Hearst's
+        strategic venture capital arm investing in media, marketing, data,
+        transportation, and health technology.
+      brands:
+        - Verywell (Verywell Health, Verywell Fit, Verywell Mind, Verywell Family) — consumer health info
+        - Puzzmo — premium puzzle games platform
+        - BestProducts.com
+        - Hearst Autos digital network
+        - Hearst Ventures — corporate VC arm
+        - Hearst Lab — women-led startup accelerator
+        - HearstLive (lifestyle event activations)
+x-developer-presence:
+  summary: >-
+    Hearst Corporation has no parent-level developer portal, public API
+    catalog, or OpenAPI program. Developer surfaces, when they exist, sit
+    inside operating subsidiaries (notably Fitch Group, First Databank,
+    MOTOR, QGenda, and Bring a Trailer) and are documented in their own
+    api-evangelist repositories, not here. There is no official Hearst
+    Corporation GitHub organization publishing SDKs, CLIs, or sample code;
+    third-party GitHub orgs that contain the string "Hearst" are not
+    affiliated with Hearst Communications and were intentionally excluded.
+  parentPortal: null
+  parentOpenAPI: null
+  parentSDKs: []
+  parentStatusPage: null
+  parentChangelog: null
+  parentGitHub: null
+maintainers:
+  - FN: API Evangelist
+    email: info@apievangelist.com
