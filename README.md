@@ -1,4 +1,4 @@
-# Hearst (hearst-corporation)
+# Hearst
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,76 +64,79 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Hearst is a privately held, diversified American media, information, and services conglomerate headquartered in the Hearst Tower in New York City. Founded by William Randolph Hearst in 1887, the company today spans 360+ operating businesses across magazines, newspapers, broadcast television, cable networks, business and financial information, healthcare information, automotive data, and venture investments. Hearst reported approximately US$13B in revenue (2024) with ~22,000 employees worldwide.
+Hearst is a privately held, diversified American media, information, and services conglomerate headquartered in the Hearst Tower in New York City. Founded in 1887 by William Randolph Hearst, the company spans more than 360 businesses across magazines, newspapers, broadcast television, cable networks, business and financial information, healthcare information, automotive data, and venture investments. Hearst reported approximately US$13B in revenue (2024) with ~22,000 employees worldwide.
 
-This repository captures the brand and operating-unit portfolio of Hearst, and tracks any developer artifacts that surface at the parent level.
+**Areas:** Media · Publishing · Broadcasting · Magazines · Newspapers · Television · Cable Networks · Healthcare Information · Financial Information · Automotive Data · Syndication · Conglomerate
 
-**APIs.json URL:** https://raw.githubusercontent.com/api-evangelist/hearst-corporation/refs/heads/main/apis.yml
+## Hearst on APIs.io
 
-## Scope
+Everything profiled for Hearst is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hearst-corporation/](https://apis.io/providers/hearst-corporation/)** — or go straight to one of the APIs or properties below.
 
-- **Type:** Contract
-- **Position:** Consuming
-- **Access:** 3rd-Party
-- **x-type:** company
-- **x-tier:** 3 (no parent-level APIs)
+### Published properties
 
-## Tags
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- Media
-- Publishing
-- Broadcasting
-- Magazines
-- Newspapers
-- Television
-- Cable Networks
-- Healthcare Information
-- Financial Information
-- Automotive Data
-- Syndication
-- Conglomerate
-- Private
+#### Security (1)
 
-## Timestamps
+Authentication, trust centre, and vulnerability disclosure.
 
-- **Created:** 2026-05-23
-- **Modified:** 2026-05-23
+- [Hearst Corporation Domain Security](https://apis.io/security/hearst-corporation/hearst-corporation-domain-security/)
 
-## APIs
+## Where to find this API
 
-No public, parent-level Hearst Corporation APIs have been documented. Developer surfaces, when present, live inside operating subsidiaries (e.g. Fitch Ratings, First Databank, MOTOR, QGenda, Bring a Trailer) and are or will be profiled in their own api-evangelist repositories.
-
-## Portfolio Snapshot
-
-| Segment | What it does | Notable brands |
-|---|---|---|
-| Hearst Magazines | 300+ titles in the US and internationally | Cosmopolitan, Esquire, Elle, Harper's Bazaar, Good Housekeeping, Men's Health, Car and Driver, Popular Mechanics, Town & Country, Oprah Daily |
-| Hearst Newspapers | 19 dailies + 61 weeklies | Houston Chronicle, San Francisco Chronicle, SFGATE, San Antonio Express-News, Times Union, Connecticut Post |
-| Hearst Television | 32+ local broadcast stations | WBAL (NBC), WCVB (ABC), WTAE (ABC), KMBC (ABC), WLWT (NBC), KETV (ABC), WISN (ABC); plus Hearst Media Production Group |
-| Cable & Streaming (JV) | Joint-venture equity stakes | A+E Global Media (50% w/ Disney) — A&E, HISTORY, Lifetime, LMN, FYI; ESPN (20% w/ Disney) |
-| Hearst Health | Clinical decision support & care management | First Databank, MCG Health, Zynx Health, Homecare Homebase, QGenda, MHK |
-| Business & Financial | Ratings, B2B data, automotive data | Fitch Group (100%), Black Book, MOTOR, Noregon, CAMP Systems, Bring a Trailer, King Features, CDS Global, iCrossing |
-| Digital & Ventures | Digital brands, VC, accelerator | Verywell, Puzzmo, BestProducts.com, Hearst Ventures, Hearst Lab |
-
-See `apis.yml` (`x-portfolio.segments`) for the full enumerated brand list.
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.hearst.com/)
-- [About](https://www.hearst.com/about)
-- [Newsroom](https://www.hearst.com/newsroom)
-- [LinkedIn](https://www.linkedin.com/company/hearst)
-- [Wikipedia](https://en.wikipedia.org/wiki/Hearst_Communications)
 
-## Notable Absences
+## API Evangelist rating
 
-- No parent-level developer portal.
-- No public OpenAPI, AsyncAPI, JSON Schema, or Postman collections at the Hearst Corporation level.
-- No official Hearst Corporation GitHub organization publishing SDKs or sample code. (Third-party GitHub orgs whose names contain "Hearst" are not affiliated with Hearst Communications and have been intentionally excluded.)
-- No public pricing, no public status page, no public changelog at the corporate level. These artifacts live inside subsidiaries (e.g. Fitch Connect, Bring a Trailer) and belong to those repositories, not this one.
+**Kin Score 3.8** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-## Maintainers
+| Facet | Score |
+|---|---|
+| Discoverability | 49.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
 
-**FN:** API Evangelist
+**Agent readiness 0.0** — human-only
 
-**Email:** info@apievangelist.com
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.7** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hearst-corporation/](https://apis.io/providers/hearst-corporation/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Hearst: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hearst-corporation/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
